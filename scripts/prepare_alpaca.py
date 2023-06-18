@@ -14,11 +14,11 @@ sys.path.append(str(wd))
 
 from lit_parrot.tokenizer import Tokenizer
 
-DATA_FILE_URL = "https://raw.githubusercontent.com/tloen/alpaca-lora/main/alpaca_data_cleaned_archive.json"
-DATA_FILE_NAME = "alpaca_data_cleaned_archive.json"
-DESTINATION_PATH = Path("data/alpaca")
+DATA_FILE_URL = "https://raw.githubusercontent.com/jayeshthk/lit-parrot/main/tests/instruction.json"
+DATA_FILE_NAME = "instruction.json"
+DESTINATION_PATH = Path("data/ner")
 CHECKPOINT_DIR = Path("checkpoints/stabilityai/stablelm-base-alpha-3b")
-TEST_SPLIT_SIZE = 2000
+TEST_SPLIT_SIZE = 80
 IGNORE_INDEX = -1
 MASK_INPUTS = False  # as in alpaca-lora
 SEED = 42
