@@ -14,7 +14,7 @@ sys.path.append(str(wd))
 
 from lit_parrot.tokenizer import Tokenizer
 
-DATA_FILE_URL = "https://raw.githubusercontent.com/jayeshthk/lit-parrot/main/tests/instruction.json"
+DATA_FILE_URL = "https://winapis.s3.eu-west-2.amazonaws.com/ner_data/instruction.json"
 DATA_FILE_NAME = "instruction.json"
 DESTINATION_PATH = Path("data/ner")
 CHECKPOINT_DIR = Path("checkpoints/stabilityai/stablelm-base-alpha-3b")
